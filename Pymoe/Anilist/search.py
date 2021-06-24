@@ -28,14 +28,10 @@ class ASearch:
                         hasNextPage
                     }
                     characters (search: $query) {
-                        id
                         name {
-                            first
-                            last
+                            full
                         }
-                        image {
-                            large
-                        }
+                        favourites
                     }
                 }
             }
